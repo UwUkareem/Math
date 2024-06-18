@@ -76,3 +76,9 @@ vector<vector<pair<int, int>>> prime_fact_queries(){
     return arr;
 }
 ```
+
+# bonus
+
+- number of divisors = pow1+1 * pow2+1 * ..
+
+  ex : 12 = 2^2 * 3^1 -> no div = 2+1 * 1+1 = 6
