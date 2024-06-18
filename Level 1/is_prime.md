@@ -1,3 +1,7 @@
+# usage 
+
+- check if number is prime or not
+
 # main idea
 
 - we can get all divisors of a number by iterating sqrt(n),
