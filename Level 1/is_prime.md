@@ -11,3 +11,16 @@
 
 # time complexity
   ### Sqrt(n)
+
+# code
+
+```cpp
+bool is_prime(int num) {    
+    if (num == 2) return true;
+    if (num < 2 || !(num % 2)) return false;
+    for (int i = 3; i * i <= num; i += 2) {
+        if (!(num % i)) return false;
+    }
+    return true;
+}
+```
