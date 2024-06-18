@@ -4,7 +4,7 @@
 
 # main idea
 
-- we just using iterate until sqrt(n)
+- we just iterate until sqrt(n)
 
 # time complexity
   ### Sqrt(n)
