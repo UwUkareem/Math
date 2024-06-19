@@ -8,10 +8,11 @@
 
 # implementation
 
+- set dim value and read power (n)
 - we initial the square matrix and forming it
-- we initial the recur_matrix and forming it , its [1][]
+- we initial the recur_matrix and forming it , its [dim][1]
 - if we need the nth element we use matrix_expo by : (square_matrix ^ n)
-- then we use mul (square_matrix ^ n) * recur_matrix
+- then we do the relation ex : 
 - the result is the frist element
 
 # time complexity
