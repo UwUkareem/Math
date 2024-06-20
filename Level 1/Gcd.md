@@ -13,7 +13,7 @@
 we replace the bigger number with the mod of it with the other one 
 - if a > b , gcd(a,b) = gcd(a%b,b) and so on until 0 appear
 
-#for big numbers
+# for big numbers
 - gcd(bignum1,num2)-> get divsors of num2
 - try every div of num2 with bignum1
 - we pick the biggest div and this is the gcd
