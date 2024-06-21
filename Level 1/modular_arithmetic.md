@@ -26,7 +26,7 @@
 
 ## calculation
 
-- ## extended euclidian algorithm (mod is prime & not-prime)
+- ## extended euclidian algorithm (mod is prime & not-prime) log(m)
 ```cpp
 ll gcdExtended(int a, int b, int* x, int* y)
 {
