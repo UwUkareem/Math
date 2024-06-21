@@ -57,7 +57,7 @@ int modInverse(int A, int M)
 - a&m must be co-primes so there is modulo inverse
 
 - ## Euler's Totient function (mod is prime or not-prime)
-- if we have number a and 'not prime' mod m
+- if we have number a and mod m
 - we find phi(m)
 - modulo inverse for a is a^(phi(m) - 1)
 
