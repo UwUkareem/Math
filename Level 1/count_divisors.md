@@ -21,3 +21,9 @@ int count_divisors(int num) {
     return counter;
 }
 ```
+
+
+# by prime fact
+- number of divisors = pow1+1 * pow2+1 * ..
+
+  ex : 12 = 2^2 * 3^1 -> no div = 2+1 * 1+1 = 6
