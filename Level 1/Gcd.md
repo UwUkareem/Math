@@ -18,7 +18,8 @@ we replace the bigger number with the mod of it with the other one
 - try every div of num2 with bignum1
 - we pick the biggest div and this is the gcd
 - if there's a power u can use modulo operation
-
+# time
+## log(n)
 # code
 ## recursive 
 ```cpp
