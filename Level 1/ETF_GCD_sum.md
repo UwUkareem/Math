@@ -1,4 +1,4 @@
-# problem 1: ( i = 1 : N )Σ GCD(i,N), u hav q queries
+# ( i = 1 : N )Σ GCD(i,N), u hav q queries
 ## observations
 - gcd(i,N) = a divisor of N -> sqrt(n)
 - instead of looping from 1 to N we will loop till i*i -> sqrt
