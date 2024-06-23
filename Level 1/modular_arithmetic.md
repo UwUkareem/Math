@@ -80,14 +80,14 @@ int phi(int n) {
 
 - ### finding phi from 1 to n  O(nloglog(n))
 ```cpp
-void phi_1_to_n(int n) {
-    vector<int> phi(n + 1);
-    for (int i = 0; i <= n; i++)
+const int N = 1000005;
+vector<int> phi(N + 1);
+void phi_1_to_n() {
+    for (int i = 1; i < N; i++)
         phi[i] = i;
-
-    for (int i = 2; i <= n; i++) {
-        if (phi[i] == i) {
-            for (int j = i; j <= n; j += i)
+    for (int i = 2; i < N; i++) {
+        if (phi[i] == i) { // this is prime
+            for (int j = i; j < N; j += i)
                 phi[j] -= phi[j] / i;
         }
     }
