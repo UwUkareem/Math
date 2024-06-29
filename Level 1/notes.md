@@ -1,0 +1,3 @@
+- number of digits = log10(n)  ie log(a*b) = log(a) + log(b)
+- gcd(a,b) = gcd(a,b-a)
+- 
