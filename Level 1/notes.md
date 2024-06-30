@@ -6,3 +6,4 @@
 3) in odd if(n-2) is prime so we can make this odd out of only 2 numbers not 3
 
 - gcd(a,b) = x -> a = cx , b = dx -> gcd(c,d) = 1
+- number of primes factors of number doesnt exceed log(number)
