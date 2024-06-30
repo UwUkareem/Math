@@ -4,3 +4,5 @@
 1) every even number greater than 4 can be written as the sum of two odd primes.
 2) every odd whole number greater than 5 can be written as the sum of three primes
 3) in odd if(n-2) is prime so we can make this odd out of only 2 numbers not 3
+
+- gcd(a,b) = x -> a = cx , b = dx -> gcd(c,d) = 1
