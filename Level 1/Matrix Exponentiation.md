@@ -10,7 +10,7 @@
   ###  (dim^3)*log(n)
   (dimension of square matrix)^3  *  log(power)
 
-
+# link https://zobayer.blogspot.com/2010/11/matrix-exponentiation.html
 # code
 
 ```cpp
