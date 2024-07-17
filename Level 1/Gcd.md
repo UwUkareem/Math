@@ -53,3 +53,23 @@ int lcm (int a, int b) {
     return a / gcd(a, b) * b;
 }
 ```
+
+## number of steps gcd
+```cpp
+int gcd_steps(int a, int b) {
+    if (!a)
+        return 0;
+    if (!b)
+        return 1;
+    if (a >= b){
+        int aa = a % b;
+        int bb = a / b;
+        if (bb % 2 == 1) {
+            return gcd_steps(b, aa) + bb + bb/2;
+        } else {
+            return gcd_steps(aa, b) + bb + bb/2;
+        }
+    }
+    return 1 + gcd_steps(b, abs(a - b));
+}
+```
