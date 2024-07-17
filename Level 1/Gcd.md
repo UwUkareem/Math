@@ -73,4 +73,4 @@ int gcd_steps(int a, int b) {
     return 1 + gcd_steps(b, abs(a - b));
 }
 ```
-## number of pairs with gcd d & div of k is phi[k/d]
+## number of pairs with gcd d & satisfying a+b = k is phi[k/d]
