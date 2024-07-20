@@ -115,5 +115,14 @@ int LDE_range(int a, int b, int c, int minx, int maxx, int miny, int maxy) {
 }
 ```
 
+## note
+```cpp
+        int dec = ceil(double(-x) / (b/g));
+        int inc = floor(double(y) / (a/g));
+        if(inc < dec)
+            cout << -1 << endl;
+       
+```
+
 
 
