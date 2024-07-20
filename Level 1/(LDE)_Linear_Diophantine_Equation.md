@@ -46,7 +46,7 @@ bool LDE(int a, int b, int c, int &x0, int &y0, int &gc) {
 ```cpp
     int a,b,c,x,y,g;
     cin >> a >> b >> c;
-    if(!LDE(a,b,-c,x,y,g))
+    if(!LDE(a,b,c,x,y,g))
         cout << -1 << endl;
 
     vector<int> all_x,all_y;
