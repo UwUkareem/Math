@@ -73,5 +73,23 @@ void phi_1_to_n() {
 }
 ```
 
+### notes 
+- if p is prime  phi(p^k) = p^k - p^(k-1)
+- phi(a*b*c) = phi(a) * phi(b) * phi(c)
+- phi(n^k) = n^(k-1) * phi(n)
+- n = sum of phi(disiors of n)
+- phi(N!)
+```cpp
+// phi(N!) = (N is prime ? N-1 : N ) * phi((N-1)!)
+ll phi_factn(int n)
+{
+    ll ret = 1;
+    for (int i = 2; i <= n; ++i)
+        ret = ret * (isprime(i) ? i-1 : i);
+    return ret;
+}
+```
+
+
 
 
