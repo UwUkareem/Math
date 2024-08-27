@@ -44,3 +44,14 @@ int modular_binaryexponentian (int a, int b, int c) {
     return res;
 }
 ```
+
+```cpp
+int quick_pow(int a,int b,int p){
+    int c=1;
+    for(;b;b>>=1){
+        if(b&1){c=c*a;if(c>=p)c=c%p+p;}
+        a=a*a;if(a>=p)a=a%p+p;
+    }
+    return c;
+}
+```
