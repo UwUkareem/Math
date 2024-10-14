@@ -32,3 +32,22 @@ void sieve_generate_primes() {
     }
 }
 ```
+
+# linear sieve O(N)
+```cpp
+int n = 1e6;
+    vector<bool> isPrime(n + 1, true);
+    vector<int> primes;
+    isPrime[0] = isPrime[1] = false;
+
+    for (int i = 2; i <= n; ++i) {
+        if (isPrime[i]) {
+            primes.push_back(i);
+        }
+        for (int p : primes) {
+            if (i * p > n) break;
+            isPrime[i * p] = false;
+            if (i % p == 0) break;
+        }
+    }
+```
